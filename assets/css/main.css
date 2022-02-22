@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.header__menu-logo {
+    /* position: absolute;
+    z-index: 1; */
+    padding-left: 40px;
+}
+
+.header__account {
+    margin-right: 40px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header__welcome {
+    color: #fff;
+    font-family: SF Pro Text;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 21px;
+    margin-left: 8px;
+}
+
+main {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.VNFD1 {
+    color: #ffffff;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-content__container-left {
+    background-color: rgba(116, 184, 22, 0.5);
+    height: 100vh;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.main-content__info {
+    display: flex;
+    padding-left: 42px;
+    padding-top: 35px;
+    padding-right: 77px;
+}
+
+.main-content__info-list {
+    margin-right: 24px;
+}
+
+.main-content__info-item {
+    margin-bottom: 24px;
+}
+
+.main-content__container-right {
+    background-color: rgba(33, 37, 41, 0.6);
+    border-radius: 0px 12px 12px 10px;
+    flex: 1;
+    height: 100vh;
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.Flavour {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.VDU {
+    color: #ffffff;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.VNF-Indicator {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.content-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 42px;
+}
+
+.nfvo1 {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 100%;
+}
+
+.nfvo1__item {
+    background: rgba(52, 58, 64, 0.6);
+    border-radius: 6px;
+    width: 23.78%;
+    position: relative;
+}
+
+.nfvo1__item-rect {
+    margin-top: 18px;
+    width: 120px;
+    height: 40px;
+    background: rgba(52, 170, 255, 0.6);
+}
+
+
+.nfvo1__item-arrow {
+    
+    position: absolute;
+    top: 18px;
+    right: 48.5px;
+    border-width: 21px 21px 19px 34.64px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgba(52, 170, 255, 0.6);
+}
+
+/* .nfvo1__item-arrow-4 {
+    
+    position: absolute;
+    top: 18px;
+    right: 39.3px;
+    border-width: 21px 21px 19px 34.64px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgba(52, 170, 255, 0.6);
+} */
+
+
+.nfvo1__item-text {
+    color: #ffffff;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 26px;
+}
+
+.nfvo1__icon {
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6px;
+}
+
+.nfvo1__icon-item {
+    /* margin-right: 42px; */
+    display: flex;
+    align-items: center;
+}
+
+.CPU-86 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 0;
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.nfvo1__icon-item--margin {
+    margin-top: 30px;
+    margin-bottom: 52px;
+}
+
+.nfvo1__item--margin {
+    margin-left: 16px;
+}
